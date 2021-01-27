@@ -141,6 +141,14 @@
                 "text": ".",
                 "sk": [
                   {
+                    "text": "‘",
+                    "id": "U_2018"
+                  },
+                  {
+                    "text": "“",
+                    "id": "U_201C"
+                  },
+                  {
                     "text": ",",
                     "id": "K_COMMA"
                   },
@@ -155,15 +163,6 @@
                     "layer": "shift"
                   },
                   {
-                    "text": "'",
-                    "id": "K_QUOTE"
-                  },
-                  {
-                    "text": "\"",
-                    "id": "K_QUOTE",
-                    "layer": "shift"
-                  },
-                  {
                     "text": "\\",
                     "id": "K_BKSLASH"
                   },
@@ -175,6 +174,14 @@
                   {
                     "text": ";",
                     "id": "K_COLON"
+                  },
+                  {
+                    "text": "”",
+                    "id": "U_201D"
+                  },
+                  {
+                    "text": "’",
+                    "id": "U_2019"
                   }
                 ]
               },
@@ -887,6 +894,14 @@
                 "text": ".",
                 "sk": [
                   {
+                    "text": "“",
+                    "id": "U_201C"
+                  },
+                  {
+                    "text": "‘",
+                    "id": "U_2018"
+                  },
+                  {
                     "text": ",",
                     "id": "K_COMMA"
                   },
@@ -901,19 +916,6 @@
                     "layer": "shift"
                   },
                   {
-                    "text": "'",
-                    "id": "K_QUOTE"
-                  },
-                  {
-                    "text": "\"",
-                    "id": "K_QUOTE",
-                    "layer": "shift"
-                  },
-                  {
-                    "text": "\\",
-                    "id": "K_BKSLASH"
-                  },
-                  {
                     "text": ":",
                     "id": "K_COLON",
                     "layer": "shift"
@@ -921,6 +923,18 @@
                   {
                     "text": ";",
                     "id": "K_COLON"
+                  },
+                  {
+                    "text": "°",
+                    "id": "U_00B0"
+                  },
+                  {
+                    "text": "’",
+                    "id": "U_2019"
+                  },
+                  {
+                    "text": "”",
+                    "id": "U_201D"
                   }
                 ]
               },
@@ -1186,9 +1200,16 @@
                 "layer": "default",
                 "sk": [
                   {
+                    "text": "“",
+                    "id": "U_201C"
+                  },
+                  {
+                    "text": "‘",
+                    "id": "U_2018"
+                  },
+                  {
                     "text": ",",
-                    "id": "K_COMMA",
-                    "layer": "default"
+                    "id": "K_COMMA"
                   },
                   {
                     "text": "!",
@@ -1201,29 +1222,25 @@
                     "layer": "shift"
                   },
                   {
-                    "text": "'",
-                    "id": "K_QUOTE",
-                    "layer": "default"
-                  },
-                  {
-                    "text": "\"",
-                    "id": "K_QUOTE",
-                    "layer": "shift"
-                  },
-                  {
-                    "text": "\\",
-                    "id": "K_BKSLASH",
-                    "layer": "default"
-                  },
-                  {
                     "text": ":",
                     "id": "K_COLON",
                     "layer": "shift"
                   },
                   {
                     "text": ";",
-                    "id": "K_COLON",
-                    "layer": "default"
+                    "id": "K_COLON"
+                  },
+                  {
+                    "text": "°",
+                    "id": "U_00B0"
+                  },
+                  {
+                    "text": "’",
+                    "id": "U_2019"
+                  },
+                  {
+                    "text": "”",
+                    "id": "U_201D"
                   }
                 ]
               },
@@ -1319,34 +1336,34 @@
             "key": [
               {
                 "id": "K_4",
-                "layer": "shift",
                 "text": "$",
-                "pad": "50"
+                "pad": "50",
+                "layer": "shift"
               },
               {
                 "id": "K_2",
-                "layer": "shift",
-                "text": "@"
+                "text": "@",
+                "layer": "shift"
               },
               {
                 "id": "K_3",
-                "layer": "shift",
-                "text": "#"
+                "text": "#",
+                "layer": "shift"
               },
               {
                 "id": "K_5",
-                "layer": "shift",
-                "text": "%"
+                "text": "%",
+                "layer": "shift"
               },
               {
                 "id": "K_6",
-                "layer": "shift",
-                "text": "&"
+                "text": "&",
+                "layer": "shift"
               },
               {
                 "id": "K_HYPHEN",
-                "layer": "shift",
-                "text": "_"
+                "text": "_",
+                "layer": "shift"
               },
               {
                 "id": "K_EQUAL",
@@ -1355,8 +1372,8 @@
               },
               {
                 "id": "K_BKSLASH",
-                "layer": "shift",
-                "text": "|"
+                "text": "|",
+                "layer": "shift"
               },
               {
                 "id": "K_BKSLASH",
@@ -1364,6 +1381,7 @@
                 "layer": "default"
               },
               {
+                "id": "T_new_216",
                 "text": "",
                 "width": "10",
                 "sp": "10"
@@ -1374,13 +1392,13 @@
             "id": 3,
             "key": [
               {
-                "id": "K_LBRKT",
-                "text": "[",
+                "id": "U_00AB",
+                "text": "«",
                 "pad": "110",
                 "sk": [
                   {
-                    "id": "U_00AB",
-                    "text": "«"
+                    "id": "K_LBRKT",
+                    "text": "["
                   },
                   {
                     "id": "K_COMMA",
@@ -1396,21 +1414,21 @@
               },
               {
                 "id": "K_9",
-                "layer": "shift",
-                "text": "("
+                "text": "(",
+                "layer": "shift"
               },
               {
                 "id": "K_0",
-                "layer": "shift",
-                "text": ")"
+                "text": ")",
+                "layer": "shift"
               },
               {
-                "id": "K_RBRKT",
-                "text": "]",
+                "id": "U_00BB",
+                "text": "»",
                 "sk": [
                   {
-                    "id": "U_00BB",
-                    "text": "»"
+                    "id": "K_RBRKT",
+                    "text": "]"
                   },
                   {
                     "id": "K_PERIOD",
@@ -1426,8 +1444,8 @@
               },
               {
                 "id": "K_EQUAL",
-                "layer": "shift",
-                "text": "+"
+                "text": "+",
+                "layer": "shift"
               },
               {
                 "id": "K_HYPHEN",
@@ -1435,8 +1453,8 @@
               },
               {
                 "id": "K_8",
-                "layer": "shift",
-                "text": "*"
+                "text": "*",
+                "layer": "shift"
               },
               {
                 "id": "K_SLASH",
