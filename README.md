@@ -1,29 +1,29 @@
 Southern Wakashan keyboard
 ==============
 
-© National  Research Council Canada
+2021 © National Research Council Canada
 
 Version 1.0
 
 Description
 -----------
 
-Southern Wakashan generated from template
+A longpress keyboard for Southern Wakashan languages:
+
+ - Qʷi·qʷi·diččaq (Makah)
+ - nuučaan̓uɫ (Nuu-chah-nulth)
+ - diitiidʔaaʔtx̣ (Ditidaht)
 
 Links
 -----
 
+ - [Makah Museum](https://makahmuseum.com/)
+
 Supported Platforms
 -------------------
- * Windows
- * macOS
- * Linux
- * Web
+
  * iPhone
  * iPad
  * Android phone
  * Android tablet
  * Mobile devices
- * Desktop devices
- * Tablet devices
-
