@@ -1,0 +1,14 @@
+﻿c Mobile (Android, iPhone) keyboard for Southern Wakashan language: including Qʷi·qʷi·diččaq (Makah), diitiidʔaaʔtx̣ (Ditidaht), and nuučaan̓uɫ (Nuu-chah-nulth).
+store(&VERSION) '10.0'
+store(&NAME) 'Southern Wakashan'
+store(&COPYRIGHT) '2021 © National Research Council Canada'
+store(&KEYBOARDVERSION) '1.0'
+store(&TARGETS) 'mobile'
+store(&LAYOUTFILE) 'nrc_southern_wakashan.keyman-touch-layout'
+store(&MESSAGE) 'On behalf of the Makah Cultural & Research Center'
+
+begin Unicode > use(main)
+
+group(main) using keys
++ [T_XSH_LOWER] > 'x' U+030C
++ [T_XSH_UPPER] > 'X' U+030C

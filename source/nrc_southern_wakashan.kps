@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>13.0.115.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <ReadMeFile>readme.htm</ReadMeFile>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+    <FollowKeyboardVersion/>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Name URL="">Southern Wakashan</Name>
+    <Copyright URL="">© National  Research Council Canada</Copyright>
+    <Author URL="mailto:Eddie.Santos@nrc-cnrc.gc.ca">Eddie Antonio Santos</Author>
+    <Version URL=""></Version>
+    <WebSite URL="https://nrc.canada.ca/en/research-development/research-collaboration/programs/canadian-indigenous-languages-technology-project">https://nrc.canada.ca/en/research-development/research-collaboration/programs/canadian-indigenous-languages-technology-project</WebSite>
+  </Info>
+  <Files>
+    <File>
+      <Name>..\build\nrc_southern_wakashan.js</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>welcome.htm</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>readme.htm</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>Southern Wakashan</Name>
+      <ID>nrc_southern_wakashan</ID>
+      <Version>1.0</Version>
+      <Languages>
+        <Language ID="myh-Latn">Qʷi·qʷi·diččaq (Makah)</Language>
+        <Language ID="nuk-Latn">nuučaan̓uɫ (Nuu-chah-nulth)</Language>
+        <Language ID="dtd-Latn">diitiidʔaaʔtx̣ (Ditidaht)</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>

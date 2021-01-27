@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProject>
+  <Options>
+    <BuildPath>$PROJECTPATH\build</BuildPath>
+    <CompilerWarningsAsErrors>True</CompilerWarningsAsErrors>
+    <WarnDeprecatedCode>True</WarnDeprecatedCode>
+    <CheckFilenameConventions>True</CheckFilenameConventions>
+    <ProjectType>keyboard</ProjectType>
+  </Options>
+  <Files>
+    <File>
+      <ID>id_7cd9c75689015c0ac0391929a55ab78f</ID>
+      <Filename>nrc_southern_wakashan.kmn</Filename>
+      <Filepath>source\nrc_southern_wakashan.kmn</Filepath>
+      <FileVersion>1.0</FileVersion>
+      <FileType>.kmn</FileType>
+      <Details>
+        <Name>Southern Wakashan</Name>
+        <Copyright>2021 © National Research Council Canada</Copyright>
+        <Message>On behalf of the Makah Cultural &amp; Research Center</Message>
+      </Details>
+    </File>
+    <File>
+      <ID>id_0672d731c780d36f559bf690e2be7326</ID>
+      <Filename>nrc_southern_wakashan.kps</Filename>
+      <Filepath>source\nrc_southern_wakashan.kps</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kps</FileType>
+      <Details>
+        <Name>Southern Wakashan</Name>
+        <Copyright>© National  Research Council Canada</Copyright>
+      </Details>
+    </File>
+    <File>
+      <ID>id_ede98e4633e239f933cbfd1f4e1b766c</ID>
+      <Filename>HISTORY.md</Filename>
+      <Filepath>HISTORY.md</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.md</FileType>
+    </File>
+    <File>
+      <ID>id_53e892b8b41cc4caece1cfd5ef21d6e7</ID>
+      <Filename>LICENSE.md</Filename>
+      <Filepath>LICENSE.md</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.md</FileType>
+    </File>
+    <File>
+      <ID>id_0730bb7c2e8f9ea2438b52e419dd86c9</ID>
+      <Filename>README.md</Filename>
+      <Filepath>README.md</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.md</FileType>
+    </File>
+    <File>
+      <ID>id_ce3b060fa0762a31ab0850a7498c973b</ID>
+      <Filename>nrc_southern_wakashan.keyboard_info</Filename>
+      <Filepath>nrc_southern_wakashan.keyboard_info</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.keyboard_info</FileType>
+    </File>
+    <File>
+      <ID>id_7820d82aada6d613b1097cc5fe1a75a6</ID>
+      <Filename>nrc_southern_wakashan.js</Filename>
+      <Filepath>source\..\build\nrc_southern_wakashan.js</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.js</FileType>
+      <ParentFileID>id_0672d731c780d36f559bf690e2be7326</ParentFileID>
+    </File>
+    <File>
+      <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
+      <Filename>welcome.htm</Filename>
+      <Filepath>source\welcome.htm</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.htm</FileType>
+      <ParentFileID>id_0672d731c780d36f559bf690e2be7326</ParentFileID>
+    </File>
+    <File>
+      <ID>id_8da344c4cea6f467013357fe099006f5</ID>
+      <Filename>readme.htm</Filename>
+      <Filepath>source\readme.htm</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.htm</FileType>
+      <ParentFileID>id_0672d731c780d36f559bf690e2be7326</ParentFileID>
+    </File>
+  </Files>
+</KeymanDeveloperProject>
