@@ -677,6 +677,10 @@
                 "text": "q",
                 "sk": [
                   {
+                    "text": "q̓",
+                    "id": "T_QEJ_LOWER"
+                  },
+                  {
                     "text": "Ɂ",
                     "id": "U_0241"
                   }
@@ -702,7 +706,13 @@
               },
               {
                 "id": "K_T",
-                "text": "t"
+                "text": "t",
+                "sk": [
+                  {
+                    "text": "t̓",
+                    "id": "T_TEJ_LOWER"
+                  }
+                ]
               },
               {
                 "id": "K_Y",
@@ -722,7 +732,13 @@
               },
               {
                 "id": "K_P",
-                "text": "p"
+                "text": "p",
+                "sk": [
+                  {
+                    "text": "p̓",
+                    "id": "T_PEJ_LOWER"
+                  }
+                ]
               }
             ]
           },
@@ -731,8 +747,7 @@
             "key": [
               {
                 "id": "K_A",
-                "text": "a",
-                "pad": ""
+                "text": "a"
               },
               {
                 "id": "K_S",
@@ -772,7 +787,13 @@
               },
               {
                 "id": "K_K",
-                "text": "k"
+                "text": "k",
+                "sk": [
+                  {
+                    "text": "k̓",
+                    "id": "T_KEJ_LOWER"
+                  }
+                ]
               },
               {
                 "id": "K_L",
@@ -781,6 +802,10 @@
                   {
                     "text": "ƛ",
                     "id": "U_019B"
+                  },
+                  {
+                    "text": "ƛ̓",
+                    "id": "T_LSHEJ"
                   },
                   {
                     "text": "ɫ",
@@ -824,6 +849,14 @@
                   {
                     "text": "č",
                     "id": "U_010D"
+                  },
+                  {
+                    "text": "c̓",
+                    "id": "T_CEJ_LOWER"
+                  },
+                  {
+                    "text": "č̓",
+                    "id": "T_CHEJ_LOWER"
                   }
                 ]
               },
@@ -939,11 +972,27 @@
             "key": [
               {
                 "id": "K_Q",
-                "text": "Q"
+                "text": "Q",
+                "sk": [
+                  {
+                    "text": "Q̓",
+                    "id": "T_QEJ_LOWER"
+                  },
+                  {
+                    "text": "Ɂ",
+                    "id": "U_0241"
+                  }
+                ]
               },
               {
                 "id": "K_W",
-                "text": "W"
+                "text": "W",
+                "sk": [
+                  {
+                    "text": "ʷ",
+                    "id": "U_02B7"
+                  }
+                ]
               },
               {
                 "id": "K_E",
@@ -955,7 +1004,13 @@
               },
               {
                 "id": "K_T",
-                "text": "T"
+                "text": "T",
+                "sk": [
+                  {
+                    "text": "T̓",
+                    "id": "T_TEJ_UPPER"
+                  }
+                ]
               },
               {
                 "id": "K_Y",
@@ -975,7 +1030,13 @@
               },
               {
                 "id": "K_P",
-                "text": "P"
+                "text": "P",
+                "sk": [
+                  {
+                    "text": "P̓",
+                    "id": "T_PEJ_UPPER"
+                  }
+                ]
               }
             ]
           },
@@ -984,12 +1045,17 @@
             "key": [
               {
                 "id": "K_A",
-                "text": "A",
-                "pad": "50"
+                "text": "A"
               },
               {
                 "id": "K_S",
-                "text": "S"
+                "text": "S",
+                "sk": [
+                  {
+                    "text": "Š",
+                    "id": "U_0160"
+                  }
+                ]
               },
               {
                 "id": "K_D",
@@ -1005,7 +1071,13 @@
               },
               {
                 "id": "K_H",
-                "text": "H"
+                "text": "H",
+                "sk": [
+                  {
+                    "text": "Ḥ",
+                    "id": "U_1E24"
+                  }
+                ]
               },
               {
                 "id": "K_J",
@@ -1013,16 +1085,35 @@
               },
               {
                 "id": "K_K",
-                "text": "K"
+                "text": "K",
+                "sk": [
+                  {
+                    "text": "K̓",
+                    "id": "T_KEJ_UPPER"
+                  }
+                ]
               },
               {
                 "id": "K_L",
-                "text": "L"
+                "text": "L",
+                "sk": [
+                  {
+                    "text": "ƛ",
+                    "id": "U_019B"
+                  },
+                  {
+                    "text": "ƛ̓",
+                    "id": "T_LSHEJ"
+                  },
+                  {
+                    "text": "Ɫ",
+                    "id": "U_2C62"
+                  }
+                ]
               },
               {
-                "text": "",
-                "width": "10",
-                "sp": "10"
+                "id": "U_00B7",
+                "text": "·"
               }
             ]
           },
@@ -1041,11 +1132,31 @@
               },
               {
                 "id": "K_X",
-                "text": "X"
+                "text": "X",
+                "sk": [
+                  {
+                    "text": "X̌",
+                    "id": "T_XSH_UPPER"
+                  }
+                ]
               },
               {
                 "id": "K_C",
-                "text": "C"
+                "text": "C",
+                "sk": [
+                  {
+                    "text": "Č",
+                    "id": "U_010D"
+                  },
+                  {
+                    "text": "C̓",
+                    "id": "T_CEJ_LOWER"
+                  },
+                  {
+                    "text": "Č̓",
+                    "id": "T_CHEJ_LOWER"
+                  }
+                ]
               },
               {
                 "id": "K_V",
@@ -1057,7 +1168,13 @@
               },
               {
                 "id": "K_N",
-                "text": "N"
+                "text": "N",
+                "sk": [
+                  {
+                    "text": "ŋ",
+                    "id": "U_014B"
+                  }
+                ]
               },
               {
                 "id": "K_M",
