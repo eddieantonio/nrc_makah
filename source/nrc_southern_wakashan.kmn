@@ -2,10 +2,10 @@
 store(&VERSION) '10.0'
 store(&NAME) 'Southern Wakashan'
 store(&COPYRIGHT) '2021 © National Research Council Canada'
-store(&KEYBOARDVERSION) '1.0'
 store(&TARGETS) 'mobile'
 store(&LAYOUTFILE) 'nrc_southern_wakashan.keyman-touch-layout'
 store(&MESSAGE) 'On behalf of the Makah Cultural & Research Center'
+store(&KEYBOARDVERSION) '0.20210127'
 
 begin Unicode > use(main)
 
