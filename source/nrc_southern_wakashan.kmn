@@ -7,6 +7,8 @@ store(&LAYOUTFILE) 'nrc_southern_wakashan.keyman-touch-layout'
 store(&MESSAGE) 'On behalf of the Makah Cultural & Research Center'
 store(&KEYBOARDVERSION) '0.20210127'
 
+store(ejective) 'cčkptƛqCČKPTQ'
+
 begin Unicode > use(main)
 
 group(main) using keys
@@ -27,3 +29,6 @@ c Add ejective diacritic to certain consonants:
 + [T_LSHEJ]      > 'ƛ' U+0313
 + [T_QEJ_LOWER]  > 'q' U+0313
 + [T_QEJ_UPPER]  > 'Q' U+0313
+
+c Backspace should delete both ejective diacritic AND base character:
+any(ejective) U+0313 + [K_BKSP] > nul
