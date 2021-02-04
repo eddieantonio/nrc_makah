@@ -12,9 +12,13 @@
       <ID>id_7cd9c75689015c0ac0391929a55ab78f</ID>
       <Filename>myh_makah.kmn</Filename>
       <Filepath>source\myh_makah.kmn</Filepath>
-      <FileVersion>1.0</FileVersion>
+      <FileVersion>0.20210127</FileVersion>
       <FileType>.kmn</FileType>
-      <Details/>
+      <Details>
+        <Name>Makah</Name>
+        <Copyright>2021 © National Research Council Canada</Copyright>
+        <Message>On behalf of the Makah Cultural &amp; Research Center</Message>
+      </Details>
     </File>
     <File>
       <ID>id_0672d731c780d36f559bf690e2be7326</ID>
