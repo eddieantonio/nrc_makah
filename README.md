@@ -8,11 +8,7 @@ Version 1.0
 Description
 -----------
 
-A longpress keyboard for Southern Wakashan languages:
-
- - Qʷi·qʷi·diččaq (Makah)
- - nuučaan̓uɫ (Nuu-chah-nulth)
- - diitiidʔaaʔtx̣ (Ditidaht)
+A longpress keyboard for Qʷi·qʷi·diččaq (Makah)
 
 Links
 -----

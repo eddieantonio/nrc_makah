@@ -16,7 +16,7 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Name URL="">Southern Wakashan</Name>
+    <Name URL="">Makah</Name>
     <Copyright URL="">© 2021 National  Research Council Canada</Copyright>
     <Author URL="mailto:Eddie.Santos@nrc-cnrc.gc.ca">Eddie Antonio Santos</Author>
     <Version URL=""></Version>
@@ -49,8 +49,6 @@
       <Version>0.20210127</Version>
       <Languages>
         <Language ID="myh-Latn">Qʷi·qʷi·diččaq (Makah)</Language>
-        <Language ID="nuk-Latn">nuučaan̓uɫ (Nuu-chah-nulth)</Language>
-        <Language ID="dtd-Latn">diitiidʔaaʔtx̣ (Ditidaht)</Language>
       </Languages>
     </Keyboard>
   </Keyboards>

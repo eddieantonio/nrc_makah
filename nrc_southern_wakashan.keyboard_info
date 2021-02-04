@@ -1,7 +1,7 @@
 {
     "license": "mit",
     "languages": [
-        "myh-Latn-US", "nuk-Latn-CA", "dtd-Latn"
+        "myh-Latn-US"
     ],
-	"description": "Long press keyboard for Southern Wakashan: Qʷi·qʷi·diččaq (Makah), nuučaan̓uɫ (Nuu-chah-nulth), diitiidʔaaʔtx̣ (Ditidaht)"
+	"description": "Long press keyboard for Qʷi·qʷi·diččaq (Makah)"
 }
