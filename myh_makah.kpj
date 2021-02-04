@@ -9,7 +9,7 @@
   </Options>
   <Files>
     <File>
-      <ID>id_7cd9c75689015c0ac0391929a55ab78f</ID>
+      <ID>id_99d1f56cf8b3e99e2e6fb182f99ca6e4</ID>
       <Filename>myh_makah.kmn</Filename>
       <Filepath>source\myh_makah.kmn</Filepath>
       <FileVersion>0.20210127</FileVersion>
@@ -60,9 +60,9 @@
       <FileType>.keyboard_info</FileType>
     </File>
     <File>
-      <ID>id_7820d82aada6d613b1097cc5fe1a75a6</ID>
+      <ID>id_0fc8340181794505d2712081fa78b28b</ID>
       <Filename>myh_makah.js</Filename>
-      <Filepath>build\myh_makah.js</Filepath>
+      <Filepath>source\..\build\myh_makah.js</Filepath>
       <FileVersion></FileVersion>
       <FileType>.js</FileType>
       <ParentFileID>id_0672d731c780d36f559bf690e2be7326</ParentFileID>

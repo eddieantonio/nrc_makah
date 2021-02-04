@@ -23,3 +23,10 @@ Supported Platforms
  * Android phone
  * Android tablet
  * Mobile devices
+
+Acknowledgments
+---------------
+
+ - Conor Quinn
+ - Maria Pascua
+ - Caroline Running-Wolf
