@@ -4,7 +4,7 @@ store(&COPYRIGHT) '2021 © National Research Council Canada'
 store(&TARGETS) 'mobile'
 store(&LAYOUTFILE) 'myh_makah.keyman-touch-layout'
 store(&MESSAGE) 'On behalf of the Makah Cultural & Research Center'
-store(&KEYBOARDVERSION) '0.20210127'
+store(&KEYBOARDVERSION) '0.20210204'
 
 store(ejective) 'cčkptƛqCČKPTQ'
 store(&NAME) 'Makah'
