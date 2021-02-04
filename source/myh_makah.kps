@@ -24,7 +24,7 @@
   </Info>
   <Files>
     <File>
-      <Name>..\build\nrc_southern_wakashan.js</Name>
+      <Name>..\build\myh_makah.js</Name>
       <Description></Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.js</FileType>
@@ -44,8 +44,8 @@
   </Files>
   <Keyboards>
     <Keyboard>
-      <Name>Southern Wakashan</Name>
-      <ID>nrc_southern_wakashan</ID>
+      <Name>Makah</Name>
+      <ID>myh_makah</ID>
       <Version>0.20210127</Version>
       <Languages>
         <Language ID="myh-Latn">Qʷi·qʷi·diččaq (Makah)</Language>

@@ -10,20 +10,16 @@
   <Files>
     <File>
       <ID>id_7cd9c75689015c0ac0391929a55ab78f</ID>
-      <Filename>nrc_southern_wakashan.kmn</Filename>
-      <Filepath>source\nrc_southern_wakashan.kmn</Filepath>
-      <FileVersion>0.20210127</FileVersion>
+      <Filename>myh_makah.kmn</Filename>
+      <Filepath>source\myh_makah.kmn</Filepath>
+      <FileVersion>1.0</FileVersion>
       <FileType>.kmn</FileType>
-      <Details>
-        <Name>Makah</Name>
-        <Copyright>2021 © National Research Council Canada</Copyright>
-        <Message>On behalf of the Makah Cultural &amp; Research Center</Message>
-      </Details>
+      <Details/>
     </File>
     <File>
       <ID>id_0672d731c780d36f559bf690e2be7326</ID>
-      <Filename>nrc_southern_wakashan.kps</Filename>
-      <Filepath>source\nrc_southern_wakashan.kps</Filepath>
+      <Filename>myh_makah.kps</Filename>
+      <Filepath>source\myh_makah.kps</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kps</FileType>
       <Details>
@@ -54,15 +50,15 @@
     </File>
     <File>
       <ID>id_ce3b060fa0762a31ab0850a7498c973b</ID>
-      <Filename>nrc_southern_wakashan.keyboard_info</Filename>
-      <Filepath>nrc_southern_wakashan.keyboard_info</Filepath>
+      <Filename>myh_makah.keyboard_info</Filename>
+      <Filepath>myh_makah.keyboard_info</Filepath>
       <FileVersion></FileVersion>
       <FileType>.keyboard_info</FileType>
     </File>
     <File>
       <ID>id_7820d82aada6d613b1097cc5fe1a75a6</ID>
-      <Filename>nrc_southern_wakashan.js</Filename>
-      <Filepath>source\..\build\nrc_southern_wakashan.js</Filepath>
+      <Filename>myh_makah.js</Filename>
+      <Filepath>build\myh_makah.js</Filepath>
       <FileVersion></FileVersion>
       <FileType>.js</FileType>
       <ParentFileID>id_0672d731c780d36f559bf690e2be7326</ParentFileID>
