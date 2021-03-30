@@ -29,4 +29,4 @@ Acknowledgments
 
  - Conor Quinn
  - Maria Pascua
- - Caroline Running-Wolf
+ - Caroline Running Wolf
