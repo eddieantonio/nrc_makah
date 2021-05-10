@@ -149,6 +149,21 @@
               },
               {
                 "id": "U_00B7",
+                "sk": [
+                  {
+                    "id": "K_COLON",
+                    "layer": "shift",
+                    "text": ":"
+                  },
+                  {
+                    "id": "K_COLON",
+                    "text": ";"
+                  },
+                  {
+                    "id": "U_00B0",
+                    "text": "°"
+                  }
+                ],
                 "text": "·"
               }
             ]
@@ -246,19 +261,6 @@
                     "id": "K_SLASH",
                     "layer": "shift",
                     "text": "?"
-                  },
-                  {
-                    "id": "K_COLON",
-                    "layer": "shift",
-                    "text": ":"
-                  },
-                  {
-                    "id": "K_COLON",
-                    "text": ";"
-                  },
-                  {
-                    "id": "U_00B0",
-                    "text": "°"
                   },
                   {
                     "id": "U_2019",
@@ -460,6 +462,21 @@
               },
               {
                 "id": "U_00B7",
+                "sk": [
+                  {
+                    "id": "K_COLON",
+                    "layer": "shift",
+                    "text": ":"
+                  },
+                  {
+                    "id": "K_COLON",
+                    "text": ";"
+                  },
+                  {
+                    "id": "U_00B0",
+                    "text": "°"
+                  }
+                ],
                 "text": "·"
               }
             ]
@@ -559,19 +576,6 @@
                     "id": "K_SLASH",
                     "layer": "shift",
                     "text": "?"
-                  },
-                  {
-                    "id": "K_COLON",
-                    "layer": "shift",
-                    "text": ":"
-                  },
-                  {
-                    "id": "K_COLON",
-                    "text": ";"
-                  },
-                  {
-                    "id": "U_00B0",
-                    "text": "°"
                   },
                   {
                     "id": "U_2019",
@@ -993,6 +997,21 @@
               },
               {
                 "id": "U_00B7",
+                "sk": [
+                  {
+                    "id": "K_COLON",
+                    "layer": "shift",
+                    "text": ":"
+                  },
+                  {
+                    "id": "K_COLON",
+                    "text": ";"
+                  },
+                  {
+                    "id": "U_00B0",
+                    "text": "°"
+                  }
+                ],
                 "text": "·"
               }
             ]
@@ -1090,19 +1109,6 @@
                     "id": "K_SLASH",
                     "layer": "shift",
                     "text": "?"
-                  },
-                  {
-                    "id": "K_COLON",
-                    "layer": "shift",
-                    "text": ":"
-                  },
-                  {
-                    "id": "K_COLON",
-                    "text": ";"
-                  },
-                  {
-                    "id": "U_00B0",
-                    "text": "°"
                   },
                   {
                     "id": "U_2019",
@@ -1304,6 +1310,21 @@
               },
               {
                 "id": "U_00B7",
+                "sk": [
+                  {
+                    "id": "K_COLON",
+                    "layer": "shift",
+                    "text": ":"
+                  },
+                  {
+                    "id": "K_COLON",
+                    "text": ";"
+                  },
+                  {
+                    "id": "U_00B0",
+                    "text": "°"
+                  }
+                ],
                 "text": "·"
               }
             ]
@@ -1403,19 +1424,6 @@
                     "id": "K_SLASH",
                     "layer": "shift",
                     "text": "?"
-                  },
-                  {
-                    "id": "K_COLON",
-                    "layer": "shift",
-                    "text": ":"
-                  },
-                  {
-                    "id": "K_COLON",
-                    "text": ";"
-                  },
-                  {
-                    "id": "U_00B0",
-                    "text": "°"
                   },
                   {
                     "id": "U_2019",
