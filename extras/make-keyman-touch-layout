@@ -21,7 +21,6 @@ ROOT_DIR = EXTRAS_DIR.parent
 SOURCE_DIR = ROOT_DIR / "source"
 KEYMAN_TOUCH_LAYOUT = SOURCE_DIR / "myh_makah.keyman-touch-layout"
 
-DEFAULT_FONT = "Tahoma"
 # See recommended fonts: https://makah-fonts.vercel.app/
 RECOMMENDED_FONT = "Andika, Arial, Times New Roman"
 
@@ -459,7 +458,7 @@ numeric_layer = Layer(
 )
 
 phone = Layout(
-    font=DEFAULT_FONT,
+    font=RECOMMENDED_FONT,
     layer=[
         default_layer,
         shift_layer,
