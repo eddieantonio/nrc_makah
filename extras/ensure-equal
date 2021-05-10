@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+
+import json
+import sys
+from pathlib import Path
+
+EXTRAS_DIR = Path(__file__).parent
+ROOT_DIR = EXTRAS_DIR.parent
+SOURCE_DIR = ROOT_DIR / "source"
+KEYMAN_TOUCH_LAYOUT = SOURCE_DIR / "myh_makah.keyman-touch-layout"
+
+new = json.loads(Path(sys.argv[1]).read_text(encoding="UTF-8"))
+original = json.loads(KEYMAN_TOUCH_LAYOUT.read_text(encoding="UTF-8"))
+
+if new != original:
+    print("files differ")
+    sys.exit(1)
+else:
+    sys.exit(0)

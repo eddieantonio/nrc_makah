@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -eu
+
+a=./source/myh_makah.keyman-touch-layout
+b=/tmp/layout.json
+
+./extras/make-keyman-touch-layout "$b"
+
+if ./extras/ensure-equal "$b" ; then
+    echo "$(tput setaf 2)✅ Equivilent JSON 💫💯✨$(tput sgr0)"!
+else
+    echo "$(tput setaf 1)🚫 They differ 💥🤬💩 :( $(tput sgr0):"
+    diff -u "$a" "$b"
+fi

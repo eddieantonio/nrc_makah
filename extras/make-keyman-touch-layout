@@ -1,0 +1,490 @@
+#!/usr/bin/env python3
+
+"""
+Requires Python 3.9+
+
+Creates source/myh_makah.keyman-touch-layout
+
+Ensures both the tablet and the mobile layout have the same keys.
+"""
+
+from __future__ import annotations
+
+import json
+import sys
+from dataclasses import dataclass, asdict
+from typing import Any
+from pathlib import Path
+
+EXTRAS_DIR = Path(__file__).parent
+ROOT_DIR = EXTRAS_DIR.parent
+SOURCE_DIR = ROOT_DIR / "source"
+KEYMAN_TOUCH_LAYOUT = SOURCE_DIR / "myh_makah.keyman-touch-layout"
+
+DEFAULT_FONT = "Tahoma"
+# See recommended fonts: https://makah-fonts.vercel.app/
+RECOMMENDED_FONT = "Andika, Arial, Times New Roman"
+
+
+@dataclass
+class Layout:
+    font: str
+    layer: list[Layer]
+    displayUnderlying: bool = False
+
+
+@dataclass
+class Layer:
+    id: str
+    row: list
+
+
+@dataclass
+class Row:
+    id: int
+    key: list
+
+
+default_layer = Layer(
+    "default",
+    [
+        Row(
+            1,
+            [
+                {
+                    "id": "K_Q",
+                    "text": "q",
+                    "sk": [{"id": "T_QEJ_LOWER", "text": "q̓"}],
+                },
+                {
+                    "id": "K_W",
+                    "sk": [{"id": "U_02B7", "text": "ʷ"}],
+                    "text": "w",
+                },
+                {"id": "K_E", "text": "e"},
+                {
+                    "id": "U_019B",
+                    "sk": [
+                        {"id": "T_LSHEJ", "text": "ƛ̓"},
+                        {"id": "K_R", "text": "r"},
+                    ],
+                    "text": "ƛ",
+                },
+                {
+                    "id": "K_T",
+                    "sk": [{"id": "T_TEJ_LOWER", "text": "t̓"}],
+                    "text": "t",
+                },
+                {"id": "K_Y", "text": "y"},
+                {"id": "K_U", "text": "u"},
+                {"id": "K_I", "text": "i"},
+                {"id": "K_O", "text": "o"},
+                {
+                    "id": "K_P",
+                    "sk": [{"id": "T_PEJ_LOWER", "text": "p̓"}],
+                    "text": "p",
+                },
+            ],
+        ),
+        Row(
+            2,
+            [
+                {"id": "K_A", "text": "a"},
+                {
+                    "id": "K_S",
+                    "sk": [{"id": "U_0161", "text": "š"}],
+                    "text": "s",
+                },
+                {"id": "K_D", "text": "d"},
+                {
+                    "id": "U_026B",
+                    "sk": [{"id": "K_F", "text": "f"}],
+                    "text": "ɫ",
+                },
+                {"id": "K_G", "text": "g"},
+                {
+                    "id": "K_H",
+                    "sk": [{"id": "U_1E25", "text": "ḥ"}],
+                    "text": "h",
+                },
+                {"id": "K_J", "text": "j"},
+                {
+                    "id": "K_K",
+                    "sk": [{"id": "T_KEJ_LOWER", "text": "k̓"}],
+                    "text": "k",
+                },
+                {"id": "K_L", "text": "l"},
+                {"id": "U_00B7", "text": "·"},
+            ],
+        ),
+        Row(
+            3,
+            [
+                {
+                    "id": "K_SHIFT",
+                    "nextlayer": "shift",
+                    "sp": "1",
+                    "text": "*Shift*",
+                },
+                {"id": "K_Z", "text": "z"},
+                {
+                    "id": "K_X",
+                    "sk": [{"id": "T_XSH_LOWER", "text": "x̌"}],
+                    "text": "x",
+                },
+                {
+                    "id": "K_C",
+                    "sk": [
+                        {"id": "T_CEJ_LOWER", "text": "c̓"},
+                        {"id": "U_010D", "text": "č"},
+                        {"id": "T_CHEJ_LOWER", "text": "č̓"},
+                    ],
+                    "text": "c",
+                },
+                {
+                    "id": "U_0241",
+                    "sk": [{"id": "K_V", "text": "v"}],
+                    "text": "Ɂ",
+                },
+                {"id": "K_B", "text": "b"},
+                {
+                    "id": "K_N",
+                    "sk": [{"id": "U_014B", "text": "ŋ"}],
+                    "text": "n",
+                },
+                {"id": "K_M", "text": "m"},
+                {
+                    "id": "K_PERIOD",
+                    "sk": [
+                        {"id": "U_201C", "text": "“"},
+                        {"id": "U_2018", "text": "‘"},
+                        {"id": "K_COMMA", "text": ","},
+                        {"id": "K_1", "layer": "shift", "text": "!"},
+                        {"id": "K_SLASH", "layer": "shift", "text": "?"},
+                        {"id": "K_COLON", "layer": "shift", "text": ":"},
+                        {"id": "K_COLON", "text": ";"},
+                        {"id": "U_00B0", "text": "°"},
+                        {"id": "U_2019", "text": "’"},
+                        {"id": "U_201D", "text": "”"},
+                    ],
+                    "text": ".",
+                },
+                {
+                    "id": "K_BKSP",
+                    "sp": "1",
+                    "text": "*BkSp*",
+                    "width": "100",
+                },
+            ],
+        ),
+        Row(
+            4,
+            [
+                {
+                    "id": "K_NUMLOCK",
+                    "nextlayer": "numeric",
+                    "sp": "1",
+                    "text": "*123*",
+                    "width": "150",
+                },
+                {
+                    "id": "K_LOPT",
+                    "sp": "1",
+                    "text": "*Menu*",
+                    "width": "120",
+                },
+                {"id": "K_SPACE", "sp": "0", "text": "", "width": "610"},
+                {
+                    "id": "K_ENTER",
+                    "sp": "1",
+                    "text": "*Enter*",
+                    "width": "150",
+                },
+            ],
+        ),
+    ],
+)
+
+shift_layer = Layer(
+    "shift",
+    [
+        Row(
+            1,
+            [
+                {
+                    "id": "K_Q",
+                    "sk": [{"id": "T_QEJ_LOWER", "text": "Q̓"}],
+                    "text": "Q",
+                },
+                {
+                    "id": "K_W",
+                    "sk": [{"id": "U_02B7", "text": "ʷ"}],
+                    "text": "W",
+                },
+                {"id": "K_E", "text": "E"},
+                {
+                    "id": "U_019B",
+                    "sk": [
+                        {"id": "T_LSHEJ", "text": "ƛ̓"},
+                        {"id": "K_R", "layer": "shift", "text": "R"},
+                    ],
+                    "text": "ƛ",
+                },
+                {
+                    "id": "K_T",
+                    "sk": [{"id": "T_TEJ_UPPER", "text": "T̓"}],
+                    "text": "T",
+                },
+                {"id": "K_Y", "text": "Y"},
+                {"id": "K_U", "text": "U"},
+                {"id": "K_I", "text": "I"},
+                {"id": "K_O", "text": "O"},
+                {
+                    "id": "K_P",
+                    "sk": [{"id": "T_PEJ_UPPER", "text": "P̓"}],
+                    "text": "P",
+                },
+            ],
+        ),
+        Row(
+            2,
+            [
+                {"id": "K_A", "text": "A"},
+                {
+                    "id": "K_S",
+                    "sk": [{"id": "U_0160", "text": "Š"}],
+                    "text": "S",
+                },
+                {"id": "K_D", "text": "D"},
+                {
+                    "id": "U_2C62",
+                    "sk": [{"id": "K_F", "layer": "shift", "text": "F"}],
+                    "text": "Ɫ",
+                },
+                {"id": "K_G", "text": "G"},
+                {
+                    "id": "K_H",
+                    "sk": [{"id": "U_1E24", "text": "Ḥ"}],
+                    "text": "H",
+                },
+                {"id": "K_J", "text": "J"},
+                {
+                    "id": "K_K",
+                    "sk": [{"id": "T_KEJ_UPPER", "text": "K̓"}],
+                    "text": "K",
+                },
+                {"id": "K_L", "text": "L"},
+                {"id": "U_00B7", "text": "·"},
+            ],
+        ),
+        Row(
+            3,
+            [
+                {
+                    "id": "K_SHIFT",
+                    "nextlayer": "default",
+                    "sp": "2",
+                    "text": "*Shift*",
+                },
+                {"id": "K_Z", "text": "Z"},
+                {
+                    "id": "K_X",
+                    "sk": [{"id": "T_XSH_UPPER", "text": "X̌"}],
+                    "text": "X",
+                },
+                {
+                    "id": "K_C",
+                    "sk": [
+                        {"id": "T_CEJ_LOWER", "text": "C̓"},
+                        {"id": "U_010D", "text": "Č"},
+                        {"id": "T_CHEJ_LOWER", "text": "Č̓"},
+                    ],
+                    "text": "C",
+                },
+                {
+                    "id": "U_0241",
+                    "sk": [{"id": "K_V", "layer": "shift", "text": "V"}],
+                    "text": "Ɂ",
+                },
+                {"id": "K_B", "text": "B"},
+                {
+                    "id": "K_N",
+                    "sk": [{"id": "U_014B", "text": "ŋ"}],
+                    "text": "N",
+                },
+                {"id": "K_M", "text": "M"},
+                {
+                    "id": "K_PERIOD",
+                    "layer": "default",
+                    "sk": [
+                        {"id": "U_201C", "text": "“"},
+                        {"id": "U_2018", "text": "‘"},
+                        {"id": "K_COMMA", "text": ","},
+                        {"id": "K_1", "layer": "shift", "text": "!"},
+                        {"id": "K_SLASH", "layer": "shift", "text": "?"},
+                        {"id": "K_COLON", "layer": "shift", "text": ":"},
+                        {"id": "K_COLON", "text": ";"},
+                        {"id": "U_00B0", "text": "°"},
+                        {"id": "U_2019", "text": "’"},
+                        {"id": "U_201D", "text": "”"},
+                    ],
+                    "text": ".",
+                },
+                {"id": "K_BKSP", "sp": "1", "text": "*BkSp*"},
+            ],
+        ),
+        Row(
+            4,
+            [
+                {
+                    "id": "K_NUMLOCK",
+                    "nextlayer": "numeric",
+                    "sp": "1",
+                    "text": "*123*",
+                    "width": "150",
+                },
+                {
+                    "id": "K_LOPT",
+                    "sp": "1",
+                    "text": "*Menu*",
+                    "width": "120",
+                },
+                {"id": "K_SPACE", "sp": "0", "text": "", "width": "610"},
+                {
+                    "id": "K_ENTER",
+                    "sp": "1",
+                    "text": "*Enter*",
+                    "width": "150",
+                },
+            ],
+        ),
+    ],
+)
+
+numeric_layer = Layer(
+    "numeric",
+    [
+        Row(
+            1,
+            [
+                {"id": "K_1", "text": "1"},
+                {"id": "K_2", "text": "2"},
+                {"id": "K_3", "text": "3"},
+                {"id": "K_4", "text": "4"},
+                {"id": "K_5", "text": "5"},
+                {"id": "K_6", "text": "6"},
+                {"id": "K_7", "text": "7"},
+                {"id": "K_8", "text": "8"},
+                {"id": "K_9", "text": "9"},
+                {"id": "K_0", "text": "0"},
+            ],
+        ),
+        Row(
+            2,
+            [
+                {"id": "K_4", "layer": "shift", "pad": "50", "text": "$"},
+                {"id": "K_2", "layer": "shift", "text": "@"},
+                {"id": "K_3", "layer": "shift", "text": "#"},
+                {"id": "K_5", "layer": "shift", "text": "%"},
+                {"id": "K_6", "layer": "shift", "text": "&"},
+                {"id": "K_HYPHEN", "layer": "shift", "text": "_"},
+                {"id": "K_EQUAL", "layer": "default", "text": "="},
+                {"id": "K_BKSLASH", "layer": "shift", "text": "|"},
+                {"id": "K_BKSLASH", "layer": "default", "text": "\\"},
+                {"id": "T_new_216", "sp": "10", "text": "", "width": "10"},
+            ],
+        ),
+        Row(
+            3,
+            [
+                {
+                    "id": "U_00AB",
+                    "pad": "110",
+                    "sk": [
+                        {"id": "K_LBRKT", "text": "["},
+                        {"id": "K_COMMA", "layer": "shift", "text": "<"},
+                        {"id": "K_LBRKT", "layer": "shift", "text": "{"},
+                    ],
+                    "text": "«",
+                },
+                {"id": "K_9", "layer": "shift", "text": "("},
+                {"id": "K_0", "layer": "shift", "text": ")"},
+                {
+                    "id": "U_00BB",
+                    "sk": [
+                        {"id": "K_RBRKT", "text": "]"},
+                        {"id": "K_PERIOD", "layer": "shift", "text": ">"},
+                        {"id": "K_RBRKT", "layer": "shift", "text": "}"},
+                    ],
+                    "text": "»",
+                },
+                {"id": "K_EQUAL", "layer": "shift", "text": "+"},
+                {"id": "K_HYPHEN", "text": "-"},
+                {"id": "K_8", "layer": "shift", "text": "*"},
+                {"id": "K_SLASH", "text": "/"},
+                {
+                    "id": "K_BKSP",
+                    "sp": "1",
+                    "text": "*BkSp*",
+                    "width": "100",
+                },
+            ],
+        ),
+        Row(
+            4,
+            [
+                {
+                    "id": "K_LOWER",
+                    "nextlayer": "default",
+                    "sp": "1",
+                    "text": "*abc*",
+                    "width": "150",
+                },
+                {
+                    "id": "K_LOPT",
+                    "sp": "1",
+                    "text": "*Menu*",
+                    "width": "120",
+                },
+                {"id": "K_SPACE", "sp": "0", "text": "", "width": "610"},
+                {
+                    "id": "K_ENTER",
+                    "sp": "1",
+                    "text": "*Enter*",
+                    "width": "150",
+                },
+            ],
+        ),
+    ],
+)
+
+phone = Layout(
+    font=DEFAULT_FONT,
+    layer=[
+        default_layer,
+        shift_layer,
+        numeric_layer,
+    ],
+)
+tablet = phone
+
+layout = {
+    "tablet": asdict(tablet),
+    "phone": asdict(phone),
+}
+
+
+def open_output_file():
+    if len(sys.argv) < 2:
+        return KEYMAN_TOUCH_LAYOUT.open("wt", encoding="UTF-8")
+
+    filename = sys.argv[1]
+    if filename == "-":
+        return sys.stdout
+    else:
+        return Path(filename).open("wt", encoding="UTF-8")
+
+
+if __name__ == "__main__":
+    with open_output_file() as destination:
+        json.dump(layout, destination, ensure_ascii=False, indent=2)
