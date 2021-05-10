@@ -43,6 +43,9 @@ class Row:
     id: int
     key: list
 
+def upper_punctuation_key(**kwargs):
+    return {"id": "U_00B7", "text": "·"}
+
 
 def lower_punctionation_key(**kwargs):
     return {
@@ -133,7 +136,7 @@ default_layer = Layer(
                     "text": "k",
                 },
                 {"id": "K_L", "text": "l"},
-                {"id": "U_00B7", "text": "·"},
+                upper_punctuation_key(),
             ],
         ),
         Row(
@@ -278,7 +281,7 @@ shift_layer = Layer(
                     "text": "K",
                 },
                 {"id": "K_L", "text": "L"},
-                {"id": "U_00B7", "text": "·"},
+                upper_punctuation_key(),
             ],
         ),
         Row(
