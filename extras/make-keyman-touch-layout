@@ -44,6 +44,26 @@ class Row:
     key: list
 
 
+def lower_punctionation_key(**kwargs):
+    return {
+        "id": "K_PERIOD",
+        **kwargs,
+        "sk": [
+            {"id": "U_201C", "text": "“"},
+            {"id": "U_2018", "text": "‘"},
+            {"id": "K_COMMA", "text": ","},
+            {"id": "K_1", "layer": "shift", "text": "!"},
+            {"id": "K_SLASH", "layer": "shift", "text": "?"},
+            {"id": "K_COLON", "layer": "shift", "text": ":"},
+            {"id": "K_COLON", "text": ";"},
+            {"id": "U_00B0", "text": "°"},
+            {"id": "U_2019", "text": "’"},
+            {"id": "U_201D", "text": "”"},
+        ],
+        "text": ".",
+    }
+
+
 default_layer = Layer(
     "default",
     [
@@ -152,22 +172,7 @@ default_layer = Layer(
                     "text": "n",
                 },
                 {"id": "K_M", "text": "m"},
-                {
-                    "id": "K_PERIOD",
-                    "sk": [
-                        {"id": "U_201C", "text": "“"},
-                        {"id": "U_2018", "text": "‘"},
-                        {"id": "K_COMMA", "text": ","},
-                        {"id": "K_1", "layer": "shift", "text": "!"},
-                        {"id": "K_SLASH", "layer": "shift", "text": "?"},
-                        {"id": "K_COLON", "layer": "shift", "text": ":"},
-                        {"id": "K_COLON", "text": ";"},
-                        {"id": "U_00B0", "text": "°"},
-                        {"id": "U_2019", "text": "’"},
-                        {"id": "U_201D", "text": "”"},
-                    ],
-                    "text": ".",
-                },
+                lower_punctionation_key(),
                 {
                     "id": "K_BKSP",
                     "sp": "1",
@@ -312,23 +317,7 @@ shift_layer = Layer(
                     "text": "N",
                 },
                 {"id": "K_M", "text": "M"},
-                {
-                    "id": "K_PERIOD",
-                    "layer": "default",
-                    "sk": [
-                        {"id": "U_201C", "text": "“"},
-                        {"id": "U_2018", "text": "‘"},
-                        {"id": "K_COMMA", "text": ","},
-                        {"id": "K_1", "layer": "shift", "text": "!"},
-                        {"id": "K_SLASH", "layer": "shift", "text": "?"},
-                        {"id": "K_COLON", "layer": "shift", "text": ":"},
-                        {"id": "K_COLON", "text": ";"},
-                        {"id": "U_00B0", "text": "°"},
-                        {"id": "U_2019", "text": "’"},
-                        {"id": "U_201D", "text": "”"},
-                    ],
-                    "text": ".",
-                },
+                lower_punctionation_key(layer="default"),
                 {"id": "K_BKSP", "sp": "1", "text": "*BkSp*"},
             ],
         ),
