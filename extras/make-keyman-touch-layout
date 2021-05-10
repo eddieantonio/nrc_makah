@@ -50,9 +50,9 @@ def upper_punctuation_key(**kwargs):
         "sk": [
             {"id": "K_COLON", "layer": "shift", "text": ":"},
             {"id": "K_COLON", "text": ";"},
-            {"id": "U_00B0", "text": "°"},
+            morpheme_marker_key(),
         ],
-        "text": "·"
+        "text": "·",
     }
 
 
@@ -71,6 +71,10 @@ def lower_punctionation_key(**kwargs):
         ],
         "text": ".",
     }
+
+
+def morpheme_marker_key():
+    return {"id": "U_00B0", "text": "°"}
 
 
 default_layer = Layer(
