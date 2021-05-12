@@ -3,7 +3,7 @@
 """
 Requires Python 3.9+
 
-Creates source/myh_makah.keyman-touch-layout
+Creates source/*.keyman-touch-layout
 
 Ensures both the tablet and the mobile layout have the same keys.
 """
@@ -16,10 +16,11 @@ from dataclasses import dataclass, asdict
 from typing import Any
 from pathlib import Path
 
+KEYBOARD_NAME = "myh_makah"
 EXTRAS_DIR = Path(__file__).parent
 ROOT_DIR = EXTRAS_DIR.parent
 SOURCE_DIR = ROOT_DIR / "source"
-KEYMAN_TOUCH_LAYOUT = SOURCE_DIR / "myh_makah.keyman-touch-layout"
+KEYMAN_TOUCH_LAYOUT = SOURCE_DIR / f"{KEYBOARD_NAME}.keyman-touch-layout"
 
 # See recommended fonts: https://makah-fonts.vercel.app/
 RECOMMENDED_FONT = "Andika, Arial, Times New Roman"
