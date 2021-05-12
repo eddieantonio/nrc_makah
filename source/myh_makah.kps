@@ -17,7 +17,7 @@
   </StartMenu>
   <Info>
     <Name URL="">Makah</Name>
-    <Copyright URL="">© 2021 National  Research Council Canada</Copyright>
+    <Copyright URL="">© 2021 National Research Council Canada</Copyright>
     <Author URL="mailto:Eddie.Santos@nrc-cnrc.gc.ca">Eddie Antonio Santos</Author>
     <Version URL=""></Version>
     <WebSite URL="https://nrc.canada.ca/en/research-development/research-collaboration/programs/canadian-indigenous-languages-technology-project">https://nrc.canada.ca/en/research-development/research-collaboration/programs/canadian-indigenous-languages-technology-project</WebSite>
@@ -41,14 +41,48 @@
       <CopyLocation>0</CopyLocation>
       <FileType>.htm</FileType>
     </File>
+    <!-- See Kayan keyboard for inspiration -->
+    <!-- https://github.com/keymanapp/keyboards/blob/b433371c3b5cab664a58c259db3a01baeb1c1f1b/release/k/kayan/source/kayan.kps -->
+    <!--
+    <File>
+      <Name>..\..\..\shared\fonts\sil\andika\Andika_README.txt</Name>
+      <Description>File Andika_README.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+    <File>
+      <Name>..\..\..\shared\fonts\sil\andika\Andika-Regular.ttf</Name>
+      <Description>Font Andika</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>..\..\..\shared\fonts\sil\andika\FONTLOG.txt</Name>
+      <Description>File FONTLOG.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+    <File>
+      <Name>..\..\..\shared\fonts\sil\andika\OFL.txt</Name>
+      <Description>File OFL.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+    <File>
+      <Name>..\..\..\shared\fonts\sil\andika\OFL-FAQ.txt</Name>
+      <Description>File OFL-FAQ.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+    -->
   </Files>
   <Keyboards>
     <Keyboard>
       <Name>Makah</Name>
       <ID>myh_makah</ID>
-      <Version>0.20210127</Version>
+      <Version>0.20210512</Version>
       <Languages>
-        <Language ID="myh-Latn">Qʷi·qʷi·diččaq (Makah)</Language>
+        <Language ID="myh-Latn">Qʷi·qʷi·diččaq</Language>
       </Languages>
     </Keyboard>
   </Keyboards>
