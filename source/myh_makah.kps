@@ -41,40 +41,6 @@
       <CopyLocation>0</CopyLocation>
       <FileType>.htm</FileType>
     </File>
-    <!-- See Kayan keyboard for inspiration -->
-    <!-- https://github.com/keymanapp/keyboards/blob/b433371c3b5cab664a58c259db3a01baeb1c1f1b/release/k/kayan/source/kayan.kps -->
-    <!--
-    <File>
-      <Name>..\..\..\shared\fonts\sil\andika\Andika_README.txt</Name>
-      <Description>File Andika_README.txt</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.txt</FileType>
-    </File>
-    <File>
-      <Name>..\..\..\shared\fonts\sil\andika\Andika-Regular.ttf</Name>
-      <Description>Font Andika</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.ttf</FileType>
-    </File>
-    <File>
-      <Name>..\..\..\shared\fonts\sil\andika\FONTLOG.txt</Name>
-      <Description>File FONTLOG.txt</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.txt</FileType>
-    </File>
-    <File>
-      <Name>..\..\..\shared\fonts\sil\andika\OFL.txt</Name>
-      <Description>File OFL.txt</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.txt</FileType>
-    </File>
-    <File>
-      <Name>..\..\..\shared\fonts\sil\andika\OFL-FAQ.txt</Name>
-      <Description>File OFL-FAQ.txt</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.txt</FileType>
-    </File>
-    -->
   </Files>
   <Keyboards>
     <Keyboard>
