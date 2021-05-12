@@ -1,5 +1,5 @@
-Southern Wakashan Change History
-====================
+Makah (Qʷi·qʷi·diččaq) Change History
+=====================================
 
 1.0 (2021-01-27)
 ----------------

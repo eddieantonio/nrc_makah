@@ -1,5 +1,5 @@
-Southern Wakashan keyboard
-==============
+Makah (Qʷi·qʷi·diččaq) Keyboard
+===============================
 
 © 2021 National Research Council Canada
 
@@ -8,12 +8,13 @@ Version 1.0
 Description
 -----------
 
-A longpress keyboard for Qʷi·qʷi·diččaq (Makah)
+A longpress keyboard for Makah (Qʷi·qʷi·diččaq)
 
 Links
 -----
 
  - [Makah Museum](https://makahmuseum.com/)
+ - [Makah Museum](https://makahmuseum.com/makah-keyboard/)
 
 Supported Platforms
 -------------------
