@@ -1,6 +1,6 @@
 ﻿c Mobile (Android, iPhone) keyboard for Qʷi·qʷi·diččaq (Makah).
-store(&NAME) 'Makah'
 store(&VERSION) '10.0'
+store(&NAME) 'Makah'
 store(&COPYRIGHT) '2021 © National Research Council Canada'
 store(&TARGETS) 'mobile'
 store(&LAYOUTFILE) 'nrc_makah.keyman-touch-layout'
@@ -31,6 +31,6 @@ c Add ejective diacritic to certain consonants:
 + [T_QEJ_LOWER]  > 'q' U+0313
 + [T_QEJ_UPPER]  > 'Q' U+0313
 
-c Backspace should delete both diacritic AND base character:
+c Backspace deletes both diacritic AND base character:
 any(ejective) U+0313 + [K_BKSP] > nul
-any(x)        U+030c + [K_BKSP] > null
+any(x)        U+030c + [K_BKSP] > nul
