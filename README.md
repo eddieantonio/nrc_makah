@@ -14,7 +14,7 @@ Links
 -----
 
  - [Makah Museum](https://makahmuseum.com/)
- - [Makah Museum](https://makahmuseum.com/makah-keyboard/)
+ - [Makah Desktop keyboard layout](https://makahmuseum.com/makah-keyboard/)
 
 Supported Platforms
 -------------------
