@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>13.0.115.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>13.0.117.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
@@ -30,14 +30,56 @@
       <FileType>.js</FileType>
     </File>
     <File>
-      <Name>welcome.htm</Name>
+      <Name>readme.htm</Name>
       <Description></Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.htm</FileType>
     </File>
     <File>
-      <Name>readme.htm</Name>
-      <Description></Description>
+      <Name>welcome\default.png</Name>
+      <Description>File default.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\long-press-c.gif</Name>
+      <Description>File long-press-c.gif</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.gif</FileType>
+    </File>
+    <File>
+      <Name>welcome\long-press-f.gif</Name>
+      <Description>File long-press-f.gif</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.gif</FileType>
+    </File>
+    <File>
+      <Name>welcome\long-press-r.gif</Name>
+      <Description>File long-press-r.gif</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.gif</FileType>
+    </File>
+    <File>
+      <Name>welcome\long-press-v.gif</Name>
+      <Description>File long-press-v.gif</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.gif</FileType>
+    </File>
+    <File>
+      <Name>welcome\numeric.png</Name>
+      <Description>File numeric.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\shift.png</Name>
+      <Description>File shift.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>welcome\welcome.htm</Name>
+      <Description>File welcome.htm</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.htm</FileType>
     </File>

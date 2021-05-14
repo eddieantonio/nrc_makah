@@ -12,7 +12,7 @@
       <ID>id_99d1f56cf8b3e99e2e6fb182f99ca6e4</ID>
       <Filename>myh_makah.kmn</Filename>
       <Filepath>source\myh_makah.kmn</Filepath>
-      <FileVersion>0.20210223</FileVersion>
+      <FileVersion>1.0</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>Makah</Name>
@@ -21,7 +21,7 @@
       </Details>
     </File>
     <File>
-      <ID>id_0672d731c780d36f559bf690e2be7326</ID>
+      <ID>id_1142ffb2271b2aa1c9db10c7cd5a3835</ID>
       <Filename>myh_makah.kps</Filename>
       <Filepath>source\myh_makah.kps</Filepath>
       <FileVersion></FileVersion>
@@ -65,15 +65,7 @@
       <Filepath>source\..\build\myh_makah.js</Filepath>
       <FileVersion></FileVersion>
       <FileType>.js</FileType>
-      <ParentFileID>id_0672d731c780d36f559bf690e2be7326</ParentFileID>
-    </File>
-    <File>
-      <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
-      <Filename>welcome.htm</Filename>
-      <Filepath>source\welcome.htm</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.htm</FileType>
-      <ParentFileID>id_0672d731c780d36f559bf690e2be7326</ParentFileID>
+      <ParentFileID>id_1142ffb2271b2aa1c9db10c7cd5a3835</ParentFileID>
     </File>
     <File>
       <ID>id_8da344c4cea6f467013357fe099006f5</ID>
@@ -81,7 +73,71 @@
       <Filepath>source\readme.htm</Filepath>
       <FileVersion></FileVersion>
       <FileType>.htm</FileType>
-      <ParentFileID>id_0672d731c780d36f559bf690e2be7326</ParentFileID>
+      <ParentFileID>id_1142ffb2271b2aa1c9db10c7cd5a3835</ParentFileID>
+    </File>
+    <File>
+      <ID>id_ea729873a13c50264cce127883a9bc37</ID>
+      <Filename>default.png</Filename>
+      <Filepath>source\welcome\default.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_1142ffb2271b2aa1c9db10c7cd5a3835</ParentFileID>
+    </File>
+    <File>
+      <ID>id_46ff9c8a9f96f49807bfc62acc8ff242</ID>
+      <Filename>long-press-c.gif</Filename>
+      <Filepath>source\welcome\long-press-c.gif</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.gif</FileType>
+      <ParentFileID>id_1142ffb2271b2aa1c9db10c7cd5a3835</ParentFileID>
+    </File>
+    <File>
+      <ID>id_a44941ead787b5d5d7f68c4fe36e104c</ID>
+      <Filename>long-press-f.gif</Filename>
+      <Filepath>source\welcome\long-press-f.gif</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.gif</FileType>
+      <ParentFileID>id_1142ffb2271b2aa1c9db10c7cd5a3835</ParentFileID>
+    </File>
+    <File>
+      <ID>id_eb00521f96a27639a44c2b79ea330f75</ID>
+      <Filename>long-press-r.gif</Filename>
+      <Filepath>source\welcome\long-press-r.gif</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.gif</FileType>
+      <ParentFileID>id_1142ffb2271b2aa1c9db10c7cd5a3835</ParentFileID>
+    </File>
+    <File>
+      <ID>id_61f1d7124be1c1d034f8e9503ef633fa</ID>
+      <Filename>long-press-v.gif</Filename>
+      <Filepath>source\welcome\long-press-v.gif</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.gif</FileType>
+      <ParentFileID>id_1142ffb2271b2aa1c9db10c7cd5a3835</ParentFileID>
+    </File>
+    <File>
+      <ID>id_42e39e8ca3f55fc0e183efc3086a9192</ID>
+      <Filename>numeric.png</Filename>
+      <Filepath>source\welcome\numeric.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_1142ffb2271b2aa1c9db10c7cd5a3835</ParentFileID>
+    </File>
+    <File>
+      <ID>id_4dcf25147c41f20f184d0d69f12c9c3a</ID>
+      <Filename>shift.png</Filename>
+      <Filepath>source\welcome\shift.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_1142ffb2271b2aa1c9db10c7cd5a3835</ParentFileID>
+    </File>
+    <File>
+      <ID>id_724e5b4c63f10bc0abf7077f7c3172fc</ID>
+      <Filename>welcome.htm</Filename>
+      <Filepath>source\welcome\welcome.htm</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.htm</FileType>
+      <ParentFileID>id_1142ffb2271b2aa1c9db10c7cd5a3835</ParentFileID>
     </File>
   </Files>
 </KeymanDeveloperProject>
