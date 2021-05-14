@@ -12,7 +12,7 @@
 <h2> Fonts </h2>
 <p> Fonts that work well for typing Makah on a computer: </p>
 <ul>
-  <li>Andika (included in the package)</li>
+  <li>Andika</li>
   <li>Arial</li>
   <li>Times New Roman</li>
 </ul>
