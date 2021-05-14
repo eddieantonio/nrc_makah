@@ -24,7 +24,7 @@
   </Info>
   <Files>
     <File>
-      <Name>..\build\myh_makah.js</Name>
+      <Name>..\build\nrc_makah.js</Name>
       <Description></Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.js</FileType>
@@ -87,7 +87,7 @@
   <Keyboards>
     <Keyboard>
       <Name>Makah</Name>
-      <ID>myh_makah</ID>
+      <ID>nrc_makah</ID>
       <Version>0.20210512</Version>
       <Languages>
         <Language ID="myh-Latn">Qʷi·qʷi·diččaq</Language>

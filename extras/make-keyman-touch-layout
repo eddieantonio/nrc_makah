@@ -16,7 +16,7 @@ from dataclasses import dataclass, asdict
 from typing import Any
 from pathlib import Path
 
-KEYBOARD_NAME = "myh_makah"
+KEYBOARD_NAME = "nrc_makah"
 EXTRAS_DIR = Path(__file__).parent
 ROOT_DIR = EXTRAS_DIR.parent
 SOURCE_DIR = ROOT_DIR / "source"

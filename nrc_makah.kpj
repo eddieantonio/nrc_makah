@@ -10,8 +10,8 @@
   <Files>
     <File>
       <ID>id_99d1f56cf8b3e99e2e6fb182f99ca6e4</ID>
-      <Filename>myh_makah.kmn</Filename>
-      <Filepath>source\myh_makah.kmn</Filepath>
+      <Filename>nrc_makah.kmn</Filename>
+      <Filepath>source\nrc_makah.kmn</Filepath>
       <FileVersion>1.0</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
@@ -22,8 +22,8 @@
     </File>
     <File>
       <ID>id_1142ffb2271b2aa1c9db10c7cd5a3835</ID>
-      <Filename>myh_makah.kps</Filename>
-      <Filepath>source\myh_makah.kps</Filepath>
+      <Filename>nrc_makah.kps</Filename>
+      <Filepath>source\nrc_makah.kps</Filepath>
       <FileVersion></FileVersion>
       <FileType>.kps</FileType>
       <Details>
@@ -54,15 +54,15 @@
     </File>
     <File>
       <ID>id_ce3b060fa0762a31ab0850a7498c973b</ID>
-      <Filename>myh_makah.keyboard_info</Filename>
-      <Filepath>myh_makah.keyboard_info</Filepath>
+      <Filename>nrc_makah.keyboard_info</Filename>
+      <Filepath>nrc_makah.keyboard_info</Filepath>
       <FileVersion></FileVersion>
       <FileType>.keyboard_info</FileType>
     </File>
     <File>
       <ID>id_0fc8340181794505d2712081fa78b28b</ID>
-      <Filename>myh_makah.js</Filename>
-      <Filepath>source\..\build\myh_makah.js</Filepath>
+      <Filename>nrc_makah.js</Filename>
+      <Filepath>source\..\build\nrc_makah.js</Filepath>
       <FileVersion></FileVersion>
       <FileType>.js</FileType>
       <ParentFileID>id_1142ffb2271b2aa1c9db10c7cd5a3835</ParentFileID>
