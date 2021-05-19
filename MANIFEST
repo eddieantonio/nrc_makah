@@ -9,10 +9,10 @@ source/nrc_makah.kmn
 source/nrc_makah.kps
 source/readme.htm
 source/welcome/default.png
+source/welcome/key-f-2x.png
+source/welcome/key-r-2x.png
+source/welcome/key-v-2x.png
 source/welcome/long-press-c.gif
-source/welcome/long-press-f.gif
-source/welcome/long-press-r.gif
-source/welcome/long-press-v.gif
 source/welcome/numeric.png
 source/welcome/shift.png
 source/welcome/welcome.htm
