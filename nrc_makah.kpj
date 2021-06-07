@@ -12,7 +12,7 @@
       <ID>id_d120220c6ee73a77aeb3dce191f43409</ID>
       <Filename>nrc_makah.kmn</Filename>
       <Filepath>source\nrc_makah.kmn</Filepath>
-      <FileVersion>1.0</FileVersion>
+      <FileVersion>1.1</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>Makah</Name>
@@ -135,6 +135,30 @@
       <ID>id_8695257d256541abf85b803e72aefce9</ID>
       <Filename>key-v-2x.png</Filename>
       <Filepath>source\welcome\key-v-2x.png</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.png</FileType>
+      <ParentFileID>id_463c6a170e120e636c62303db41b92d4</ParentFileID>
+    </File>
+    <File>
+      <ID>id_301728909fe2ce644050c8892bd0fce5</ID>
+      <Filename>nrc_makah.kmx</Filename>
+      <Filepath>source\..\build\nrc_makah.kmx</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kmx</FileType>
+      <ParentFileID>id_463c6a170e120e636c62303db41b92d4</ParentFileID>
+    </File>
+    <File>
+      <ID>id_ae225add981d40c0db3aa0d7219cb648</ID>
+      <Filename>nrc_makah.kvk</Filename>
+      <Filepath>source\..\build\nrc_makah.kvk</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kvk</FileType>
+      <ParentFileID>id_463c6a170e120e636c62303db41b92d4</ParentFileID>
+    </File>
+    <File>
+      <ID>id_ebfba87ea45a2d075c0c981005bbe947</ID>
+      <Filename>desktop.png</Filename>
+      <Filepath>source\welcome\desktop.png</Filepath>
       <FileVersion></FileVersion>
       <FileType>.png</FileType>
       <ParentFileID>id_463c6a170e120e636c62303db41b92d4</ParentFileID>
